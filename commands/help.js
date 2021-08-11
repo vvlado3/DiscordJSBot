@@ -6,7 +6,7 @@ const help = new Discord.RichEmbed()
 .addField("||  ||  Information", "\n`| !ping | | !uptime | | !pay | | !serverinfo |  `")
 .setTimestamp()
 
-.setFooter('test', 'https://imgur.com/O5uxbbM.png');
+.setFooter('test', 'https://imgur.com/png');
 
 
 message.channel.send(help);
