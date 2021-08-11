@@ -10,7 +10,7 @@ exports.run = (client, message, args, level) => {
 		.setColor('BLUE')
 		.setTitle(' Информация ')
 		.addField(` Времетраене `, `${duration}`, true)
-		.setFooter('AlphaHost', 'https://imgur.com/O5uxbbM.png');
+		.setFooter('', 'https://imgur.com/.png');
 
 
 
