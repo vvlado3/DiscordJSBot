@@ -1,0 +1,38 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "TrustedGen",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.2.0",
+    "fs": "^0.0.2",
+    "array-sort": "^1.0.0",
+    "table": "^5.4.6",
+    "google-translate-api": "^2.3.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "cpu-stat": "^2.0.1",
+    "discord.js-commando": "^0.10.0",
+    "fs-nextra": "^0.4.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
