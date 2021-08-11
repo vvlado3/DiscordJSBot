@@ -3,7 +3,7 @@ const moment = require('moment');
 require('moment-duration-format');
 const Discord = require('discord.js');
 
-exports.run = (client, message, args, level) => { // eslint-disable-line no-unused-vars
+exports.run = (client, message, args, level) => {
 	var time = Date.now();
 	const duration = moment.duration(client.uptime).format(' D [days], H [hrs], m [mins], s [secs]');
 	const embed = new Discord.RichEmbed()
