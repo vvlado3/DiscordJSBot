@@ -1,3 +1,3 @@
-module.exports = client => { // eslint-disable-line no-unused-vars
+module.exports = client => { 
 	console.log(`Bot disconnected at ${new Date()}`);
 };
