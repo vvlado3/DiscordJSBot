@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 exports.run = (client, message, args) => {
     var m = args.join(' ');
-   var c = "Plus";
+
 
 
     if (!m) return message.reply('Трябва да напишете нещо...');
